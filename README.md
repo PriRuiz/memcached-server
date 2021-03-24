@@ -16,7 +16,7 @@ Retrieval commands:
 * gets
 
 ## How to run the server
-Use the following command on the 'Memcached server' folder:
+Use the following command on the project's folder:
 ```
 $ ruby start_server.rb
 ```
@@ -127,7 +127,7 @@ gets 5123456 4123456
 ## How to run the tests
 
 ### Unit tests
-Use the following command on the 'Memcached server' folder:
+Use the following command on the project's folder:
 ```
 $ rspec server_spec.rb
 ```
