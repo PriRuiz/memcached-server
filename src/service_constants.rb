@@ -1,0 +1,6 @@
+module ServiceConstants
+  FIVE_MINUTES = 300
+  MAX_LENGTH_KEY = 250
+  MAX_LENGTH_FLAGS = 65535
+  MIN_LENGTH_FLAGS = 0
+end

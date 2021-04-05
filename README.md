@@ -20,12 +20,14 @@ Use the following command on the project's folder:
 ```
 $ ruby start_server.rb
 ```
+You will be asked in which port you want to have the server running.
 
 ## How to run a demo client
 Use telnet to connect to the server.
 ```
-$ telnet localhost 2000
+$ telnet localhost X
 ```
+X beeing the number of port you chose.
 
 ### Sample commands
 Once you are connected to the server you can type in commands as follows:
@@ -129,12 +131,14 @@ gets 5123456 4123456
 ### Unit tests
 Use the following command on the project's folder:
 ```
-$ rspec server_spec.rb
+$ rspec .
 ```
 
 ### Load tests
 To run the load tests you _must_ have the server running.
 
 Open the 'Test Plan.jmx' file using the JMeter application and run it.
+
+Once the file is open you have got to configure the TCP samplers to run on the port where you are running the server.
 
 Results will be shown on the summary report.

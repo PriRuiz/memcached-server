@@ -1,4 +1,4 @@
-require_relative 'server'
+require_relative('src/server')
 
 server = Server.new
-server.initializeServer
+server.start_server()
